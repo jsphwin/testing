@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bgm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+    
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/signuptitle"
+            android:textColor="#8976FB"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="-10sp"
+            android:textStyle="bold|bold|bold"
+            android:layout_marginRight="60sp"
+            android:layout_marginLeft="60sp"
+            android:textSize="45sp"
+            android:gravity="center"
+            android:text="Create new Account"
+            android:layout_marginTop="180sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+
+
+        <TextView
+            android:textColor="#545454"
+            android:letterSpacing="0.02"
+            android:textSize="10dp"
+            android:layout_marginTop="25sp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="50dp"
+            android:textAlignment="textStart"
+            android:text="Please enter your name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/rounded_corner_bg"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+
+        <EditText
+            android:id="@+id/name"
+            android:textColor="#545454"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_marginTop="3dp"
+            android:hint="App Melodies"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+        </EditText>
+
+    </LinearLayout>
+
+
+        <TextView
+            android:textColor="#545454"
+            android:letterSpacing="0.02"
+            android:textSize="10dp"
+            android:layout_marginTop="12sp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="50dp"
+            android:textAlignment="textStart"
+            android:text="Please enter Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/rounded_corner_bg"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <EditText
+            android:id="@+id/email"
+            android:textColor="#545454"
+            android:backgroundTint="@android:color/transparent"
+            android:hint="appmelodies@mail.com"
+            android:layout_marginTop="3dp"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+        </EditText>
+
+    </LinearLayout>
+
+
+        <TextView
+            android:textColor="#545454"
+            android:letterSpacing="0.02"
+            android:textSize="10dp"
+            android:layout_marginTop="12sp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="50dp"
+            android:textAlignment="textStart"
+            android:text="Phone number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/rounded_corner_bg"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <EditText
+            android:id="@+id/phone"
+            android:textColor="#545454"
+            android:hint="9123451234"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_marginTop="3dp"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            />
+
+    </LinearLayout>
+
+        <TextView
+            android:textColor="#545454"
+            android:letterSpacing="0.02"
+            android:textSize="10dp"
+            android:layout_marginTop="12sp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="40dp"
+            android:textAlignment="textStart"
+            android:text=" Please enter your Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/rounded_corner_bg"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+
+        <EditText
+            android:id="@+id/password"
+            android:textColor="#545454"
+            android:hint="**********"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_marginTop="3dp"
+            android:textSize="16sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+        </EditText>
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/signupbtn"
+            android:letterSpacing="0.1"
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="      SIGN UP      "
+            android:background="@drawable/rounded_corner_bg_button"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/lgbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signupbtn"
+            android:layout_centerHorizontal="true"
+            android:text="Already have an account?"
+            android:textColor="#9989FD"
+            android:background="@android:color/transparent"
+            android:textSize="15dp" />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
